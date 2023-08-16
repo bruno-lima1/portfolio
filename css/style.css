@@ -1,0 +1,9 @@
+@import "./global.css";
+@import "./header.css";
+@import "./introduction.css";
+@import "./projects.css";
+@import "./academic-education.css";
+@import "./contact.css";
+@import "./copy.css";
+@import "./utilities/components.css";
+@import "./utilities/animations.css";

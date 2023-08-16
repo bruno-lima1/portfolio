@@ -1,0 +1,28 @@
+.academic-education {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1fr 40px 50px minmax(100px, 750px) 1fr;
+  padding: 2rem 0;
+}
+.academic-education .subtitle {
+  grid-column: 2/-1;
+}
+.academic-education img {
+  grid-column: 3;
+}
+.academic-education p {
+  padding-left: 1rem;
+  grid-column: 4/-1;
+}
+@media (max-width: 800px) {
+  .academic-education {
+    padding: 2rem 0.75rem;
+  }
+  .academic-education img {
+    grid-column: 2;
+  }
+  .academic-education p {
+    padding-left: 1rem;
+    grid-column: 3/-1;
+  }
+}

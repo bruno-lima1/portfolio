@@ -1,0 +1,45 @@
+.projects {
+  padding: 2rem 0;
+  grid-column: 2/4;
+  display: grid;
+  grid-template-columns:40px 1fr 1fr;
+}
+.projects-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  grid-column: 2/4;
+}
+.projects-item {
+  padding: 1rem;
+  border-radius: 10px;
+  display: grid;
+}
+.projects-techs {
+  display: flex;
+  width: 7rem;
+  padding: 6px 0 12px 0;
+}
+.projects div {
+  display: flex;
+}
+.projects .button {
+  margin: 1rem .25rem 0 0;
+  align-self: end;
+}
+.projects h3 {
+  padding-bottom: 5px;
+}
+.projects img {
+  border-radius: 10px;
+  align-self: end;
+}
+@media (max-width: 800px) {
+  .projects {
+    padding: 4rem .75rem 2rem .75rem;
+  }
+  .projects-list {
+    grid-template-columns: 1fr;
+    grid-column: 1/4;
+  }
+}

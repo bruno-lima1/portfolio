@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+button {
+  font-family: "Rubik", sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+}
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
+p,
+dd {
+  line-height: 1.5;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 40px minmax(300px, 800px) 1fr;
+}
+@media (prefers-color-scheme: light) {
+  body {
+    color: #333;
+    background: #fff;
+  }
+  .gray-background {
+    background: #ccc;
+  }
+  .header .title {
+    color: #000;
+  }
+  .header-menu a {
+    color: #000;
+  }
+  .subtitle,
+  h3 {
+    color: #000;
+  }
+  .projects-item {
+    background: #ddd;
+    border: 1px solid #bbb;
+  }
+  .contact .light-theme {
+    display: grid;
+  }
+  .contact .dark-theme {
+    display: none;
+  }
+  .header-menu a::after {
+    background: #000;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #ccc;
+    background: #000;
+  }
+  .gray-background {
+    background: #333;
+  }
+  .header .title {
+    color: #fff;
+  }
+  .header-menu a {
+    color: #fff;
+  }
+  .subtitle,
+  h3 {
+    color: #fff;
+  }
+  .projects-item {
+    background: #222;
+    border: 1px solid #444;
+  }
+  .contact .dark-theme {
+    display: grid;
+  }
+  .contact .light-theme {
+    display: none;
+  }
+  .header-menu a::after {
+    background: #fff;
+  }
+}
