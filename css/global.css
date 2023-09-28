@@ -46,6 +46,28 @@ dd {
   display: grid;
   grid-template-columns: 1fr 40px minmax(300px, 800px) 1fr;
 }
+.button-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #af73fa;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.button-top:hover {
+  background: #62408c;
+}
+.arrow {
+  background-image: url(../img/icons8-arrow-up-48.png);
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+}
 @media (prefers-color-scheme: light) {
   body {
     color: #333;
@@ -79,7 +101,6 @@ dd {
       color: #fff;
     }
   }
-  
 }
 @media (prefers-color-scheme: dark) {
   body {

@@ -1,5 +1,5 @@
 .button {
-  background: #f33;
+  background: #AF73FA;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -8,7 +8,7 @@
   font-size: 1rem;
 }
 .button:hover {
-  background: rgb(182, 36, 36);
+  background: #62408c;
 }
 .subtitle {
   font-size: 1.75rem;
@@ -17,6 +17,6 @@
 }
 @media (max-width: 800px) {
   .button:hover {
-    background: #f33;
+    background: none;
   }
 }
