@@ -1,5 +1,5 @@
 export default function initSmoothScroll() {
-  const buttons = document.querySelectorAll("[data-smoothScroll] a");
+  const buttons = document.querySelectorAll("[data-smoothScroll]");
   if (buttons) {
     buttons.forEach((button) => {
       ["touchstart", "click"].forEach((userEvent) => {
