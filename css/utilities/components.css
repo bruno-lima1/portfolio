@@ -10,7 +10,6 @@
 .button:hover {
   background: #62408c;
   transition: .2s;
-
 }
 .subtitle {
   font-size: 1.75rem;
@@ -18,5 +17,10 @@
   grid-column: 1/-1;
 }
 @media (max-width: 800px) {
-  
+  .button:hover {
+    background: #AF73FA;
+  }
+  .button:active {
+    background: #62408c;
+  }
 }
