@@ -61,6 +61,7 @@ dd {
 }
 .button-top:hover {
   background: #62408c;
+  transition: .2s;
 }
 .arrow {
   background-image: url(../img/icons8-arrow-up-48.png);
