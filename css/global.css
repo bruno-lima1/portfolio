@@ -58,6 +58,10 @@ dd {
   display: none;
   align-items: center;
   justify-content: center;
+  transition: .2s;
+}
+.button-top:hover {
+  background-color: #7e52b3;
 }
 .arrow {
   background-image: url(../img/icons8-arrow-up-48.png);
