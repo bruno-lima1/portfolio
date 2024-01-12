@@ -1,17 +1,15 @@
 export default function initButtonTop() {
-  const button = document.querySelector("[data='button-top']");
+  const button = document.querySelector("[data-button-top]");
   if (button) {
-    ["touchstart", "click"].forEach((userEvent) => {
-      button.addEventListener(userEvent, scrollToTop);
-    });
+    button.addEventListener("click", scrollToTop);
     function scrollToTop() {
-      window.scrollTo(0, 0);
+      scrollTo(0, 0);
     }
-    document.addEventListener("scroll", hideButton);
+    window.addEventListener("scroll", hideButton);
     function hideButton() {
-      return window.scrollY > 10
-        ? (button.style.display = "flex")
-        : (button.style.display = "none");
+      return scrollY > 10
+        ? button.classList.add("active")
+        : button.classList.remove("active");
     }
   }
 }

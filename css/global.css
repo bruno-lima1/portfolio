@@ -58,7 +58,10 @@ dd {
   display: none;
   align-items: center;
   justify-content: center;
-  transition: .2s;
+  transition: 0.2s;
+}
+.button-top.active {
+  display: flex;
 }
 .button-top:hover {
   background-color: #7e52b3;
