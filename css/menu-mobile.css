@@ -19,7 +19,7 @@
     background: #666;
     color: #eee;
     width: 120px;
-    align-items: end;
+    text-align: end;
   }
   [data-menu-mobile-button] {
     display: flex;
