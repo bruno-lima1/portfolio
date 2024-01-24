@@ -17,11 +17,12 @@
     <header class="header gray-background">
       <a class="title" href="#">Portfólio</a>
       <nav>
-        <ul class="header-menu" data-smoothScroll>
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="#academic-education">Formação</a></li>
-          <li><a href="#contact">Contato</a></li>
-        </ul>
+        <button data-menu-mobile-button aria-controls="menu-mobile" aria-expanded="false">MENU</button>
+          <ul class="header-menu" data-smoothScroll data-menu-mobile-list id="menu-mobile">
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#academic-education">Formação</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
       </nav>
     </header>
     <main class="introduction" data-smoothScroll>
