@@ -18,8 +18,8 @@
     border-radius: 0;
     background: #666;
     color: #eee;
-    width: 120px;
-    text-align: end;
+    width: 225px;
+    text-align: start;
   }
   [data-menu-mobile-button] {
     display: flex;
@@ -32,7 +32,7 @@
     height: 30px;
     cursor: pointer;
     position: absolute;
-    top: .8rem;
+    top: 1.25rem;
     right: 0.75rem;
     z-index: 2;
     font-family: "Rubik", sans-serif;
