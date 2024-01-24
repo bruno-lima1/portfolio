@@ -18,7 +18,7 @@
     border-radius: 0;
     background: #666;
     color: #eee;
-    width: 225px;
+    width: 250px;
     text-align: start;
   }
   [data-menu-mobile-button] {
@@ -55,7 +55,7 @@
   @keyframes menuMobile {
     from {
       opacity: 0;
-      transform: translate3d(-50px, 0, 0);
+      transform: translate3d(50px, 0, 0);
     }
     to {
       opacity: 1;
