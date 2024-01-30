@@ -76,12 +76,14 @@ dd {
   body {
     color: #333;
     background: #fff;
-  }
-  .header .title,
-  .header-menu a,
+  
   .subtitle,
   h3 {
     color: #000;
+  }
+  .header .title,
+  .header-menu a {
+    color: #333;
   }
   .projects-item {
     background: #ddd;
