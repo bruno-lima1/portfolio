@@ -87,6 +87,9 @@ dd {
     background: #ddd;
     border: 1px solid #bbb;
   }
+  .project-image {
+    border: 1px solid #bbb;
+  }
   .contact .light-theme {
     display: grid;
   }
