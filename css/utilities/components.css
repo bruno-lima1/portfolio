@@ -1,15 +1,15 @@
 .button {
-  background: #AF73FA;
+  background: #4e97d1;
   color: #fff;
   border: none;
   cursor: pointer;
   border-radius: 20px;
   padding: 0.75rem 1.25rem;
   font-size: 1rem;
-  transition: .2s;
+  transition: 0.2s;
 }
 .button:hover {
-  background: #62408c;
+  background: #00609c;
 }
 .subtitle {
   font-size: 1.75rem;
@@ -18,9 +18,9 @@
 }
 @media (max-width: 800px) {
   .button:hover {
-    background: #AF73FA;
+    background: #00609c;
   }
   .button:active {
-    background: #62408c;
+    background: #00609c;
   }
 }
