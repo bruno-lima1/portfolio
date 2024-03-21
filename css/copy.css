@@ -3,7 +3,6 @@
   padding: 1rem 0;
   display: grid;
   grid-template-columns: 1fr 40px minmax(300px, 800px) 1fr;
-  background: #006db2;
 }
 .copy p {
   text-align: center;
