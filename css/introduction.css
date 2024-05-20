@@ -3,8 +3,8 @@
   display: grid;
   justify-items: center;
   text-align: center;
-  background: url(../img/wallpaper.jpg) center/cover;
-  padding: 10.5rem 0.75rem;
+  background: url(./../img/markus-spiske-hvSr_CVecVI-unsplash.jpg) center/cover;
+  padding: 12.1rem 0.75rem;
   margin-bottom: 2rem;
 }
 .introduction h1 {
