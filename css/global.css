@@ -60,7 +60,7 @@ dd {
     color: #333;
   }
   .projects-item {
-    background: #ddd;
+    background: #f7f7f7;
     border: 1px solid #bbb;
   }
   .project-image {
@@ -76,7 +76,7 @@ dd {
     background: #000;
   }
   .copy {
-    background: #006db2;
+    background: #000;
   }
   @media (max-width: 800px) {
     .header-menu a {
