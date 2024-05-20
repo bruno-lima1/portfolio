@@ -4,7 +4,7 @@
   justify-items: center;
   text-align: center;
   background: url(./../img/markus-spiske-hvSr_CVecVI-unsplash.jpg) center/cover;
-  padding: 16rem 0.75rem;
+  padding: 12rem 0.75rem;
   margin-bottom: 2rem;
 }
 .introduction h1 {
@@ -32,4 +32,9 @@
 }
 .introduction .button {
   display: block;
+}
+@media (max-width: 800px) {
+  .introduction {
+    padding: 16rem 0.75rem;
+  }
 }
