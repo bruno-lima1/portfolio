@@ -51,6 +51,9 @@ dd {
     color: #333;
     background: #fff;
   }
+  .gray-background {
+    background: #f7f7f7;
+  }
   .subtitle,
   h3 {
     color: #000;
@@ -58,6 +61,13 @@ dd {
   .header .title,
   .header-menu a {
     color: #333;
+  }
+  .header {
+    background: #fff;
+    border: 1px solid #bbb
+  }
+  .academic-education {
+    border: 1px solid #bbb
   }
   .projects-item {
     background: #f7f7f7;
@@ -98,6 +108,10 @@ dd {
   .subtitle,
   h3 {
     color: #fff;
+  }
+  .header {
+    background: #000;
+    border-bottom: 1px solid #444;
   }
   .projects-item {
     background: #222;
