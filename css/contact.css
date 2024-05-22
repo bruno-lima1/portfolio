@@ -14,9 +14,6 @@
   grid-row: 2;
 }
 @media (max-width: 800px) {
-  .contact {
-    padding: 2rem 0.75rem;
-  }
   .contact .light-theme,
   .contact .dark-theme {
   grid-column: 1/5;

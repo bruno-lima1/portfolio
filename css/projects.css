@@ -1,9 +1,9 @@
 .projects {
-  padding: 2rem 3rem 2rem .75rem;
+  padding: 2rem .75rem;
   grid-column: 2/4;
   display: grid;
   grid-template-columns:40px 1fr 1fr;
-  scroll-margin-top: 82px;
+  scroll-margin-top: 5rem;
 }
 .projects-list {
   display: grid;
@@ -36,9 +36,6 @@
   align-self: end;
 }
 @media (max-width: 800px) {
-  .projects {
-    padding: 2rem .75rem;
-  }
   .projects-list {
     grid-template-columns: 1fr;
     grid-column: 1/4;
