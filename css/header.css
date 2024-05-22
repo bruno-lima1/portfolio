@@ -4,15 +4,16 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  padding: 1rem .75rem;
+  padding: 1rem 0;
   gap: 0.5rem;
   position: fixed;
-  width: 98vw;
+  width: 100%;
   z-index: 1;
   scroll-margin-top: 82px;
 }
 .header .title {
   font-size: 1.25rem;
+  padding-left: .75rem
 }
 .header-menu {
   display: flex;
@@ -45,9 +46,6 @@
   }
 }
 @media (max-width: 800px) {
-  .header {
-    width: 100vw;
-  }
   .header-menu a::after {
     display: none;
   }
