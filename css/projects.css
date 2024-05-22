@@ -1,5 +1,5 @@
 .projects {
-  padding: 3rem .75rem 0 .75rem;
+  padding: 3rem .75rem 3rem .75rem;
   grid-column: 2/4;
   display: grid;
   grid-template-columns:40px 1fr 1fr;
