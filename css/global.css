@@ -51,23 +51,18 @@ dd {
     color: #333;
     background: #fff;
   }
-  .gray-background {
-    background: #f7f7f7;
-  }
+  .header .title,
+  .header-menu a,
   .subtitle,
   h3 {
     color: #000;
   }
-  .header .title,
-  .header-menu a {
-    color: #333;
-  }
   .header {
     background: #fff;
-    border: 1px solid #bbb
+    border-bottom: 1px solid #bbb
   }
-  .academic-education {
-    border: 1px solid #bbb
+  .header-menu a::after {
+    background: #000;
   }
   .projects-item {
     background: #f7f7f7;
@@ -76,32 +71,27 @@ dd {
   .project-image {
     border: 1px solid #bbb;
   }
+  .education {
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+  }
+  .gray-background {
+    background: #f7f7f7;
+  }
   .contact .light-theme {
     display: grid;
   }
   .contact .dark-theme {
     display: none;
   }
-  .header-menu a::after {
-    background: #000;
-  }
   .copy {
     background: #000;
-  }
-  @media (max-width: 800px) {
-    .header-menu a {
-      background: #333;
-      color: #fff;
-    }
   }
 }
 @media (prefers-color-scheme: dark) {
   body {
     color: #ccc;
     background: #000;
-  }
-  .gray-background {
-    background: #333;
   }
   .header .title,
   .header-menu a,
@@ -113,23 +103,20 @@ dd {
     background: #000;
     border-bottom: 1px solid #444;
   }
+  .header-menu a::after {
+    background: #fff;
+  }
   .projects-item {
     background: #222;
     border: 1px solid #444;
+  }
+  .gray-background {
+    background: #222;
   }
   .contact .dark-theme {
     display: grid;
   }
   .contact .light-theme {
     display: none;
-  }
-  .header-menu a::after {
-    background: #fff;
-  }
-  @media (max-width: 800px) {
-    .header-menu a {
-      background: #000;
-      color: #fff;
-    }
   }
 }
