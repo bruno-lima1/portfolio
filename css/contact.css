@@ -1,6 +1,6 @@
 .contact {
   grid-column: 2/4;
-  padding: 3rem .75rem 3rem .75rem;
+  padding: 2rem .75rem 2rem .75rem;
   display: grid;
   grid-template-columns: 40px 1fr 1fr 1fr;
 }
