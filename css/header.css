@@ -13,7 +13,8 @@
 }
 .header .title {
   font-size: 1.25rem;
-  padding-left: .75rem
+  padding-left: .75rem;
+  cursor: pointer;
 }
 .header-menu {
   display: flex;
