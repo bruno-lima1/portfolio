@@ -16,7 +16,11 @@
   width: 3rem;
 }
 @media (max-width: 800px) {
-  .contact .dark-theme {
+  .contact {
     grid-column: 1/5;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .contact div{
+    grid-column: 1/4;
   }
 }
