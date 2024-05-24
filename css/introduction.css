@@ -31,8 +31,3 @@
 .introduction .button {
   display: block;
 }
-@media (max-width: 800px) {
-  .introduction {
-    padding: 16rem 0.75rem;
-  }
-}
