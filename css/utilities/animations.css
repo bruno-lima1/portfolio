@@ -10,8 +10,6 @@
 .fadeInLeft {
   transform: translate3d(-20px, 0, 0);
 }
-
-/* 7 Adicione o CSS Essencial abaixo */
 [data-anime] {
   opacity: 0;
 }
