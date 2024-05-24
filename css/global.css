@@ -2,6 +2,8 @@
 body {
   margin: 0;
   font-family: "Rubik", sans-serif;
+  color: #ccc;
+  background: #000;
 }
 button {
   font-family: "Rubik", sans-serif;
@@ -45,78 +47,4 @@ dd {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 40px minmax(300px, 800px) 1fr;
-}
-@media (prefers-color-scheme: light) {
-  body {
-    color: #333;
-    background: #fff;
-  }
-  .header .title,
-  .header-menu a,
-  .subtitle,
-  h3 {
-    color: #000;
-  }
-  .header {
-    background: #fff;
-    border-bottom: 1px solid #bbb
-  }
-  .header-menu a::after {
-    background: #000;
-  }
-  .projects-item {
-    background: #f7f7f7;
-    border: 1px solid #bbb;
-  }
-  .project-image {
-    border: 1px solid #bbb;
-  }
-  .education {
-    border-top: 1px solid #bbb;
-    border-bottom: 1px solid #bbb;
-  }
-  .gray-background {
-    background: #f7f7f7;
-  }
-  .contact .light-theme {
-    display: grid;
-  }
-  .contact .dark-theme {
-    display: none;
-  }
-  .copy {
-    background: #000;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  body {
-    color: #ccc;
-    background: #000;
-  }
-  .header .title,
-  .header-menu a,
-  .subtitle,
-  h3 {
-    color: #fff;
-  }
-  .header {
-    background: #000;
-    border-bottom: 1px solid #444;
-  }
-  .header-menu a::after {
-    background: #fff;
-  }
-  .projects-item {
-    background: #222;
-    border: 1px solid #444;
-  }
-  .gray-background {
-    background: #222;
-  }
-  .contact .dark-theme {
-    display: grid;
-  }
-  .contact .light-theme {
-    display: none;
-  }
 }

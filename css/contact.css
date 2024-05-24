@@ -4,18 +4,16 @@
   display: grid;
   grid-template-columns: 40px 1fr 1fr 1fr;
 }
-.contact .light-theme,
-.contact .dark-theme {
+.contact div{
+  display: grid;
   grid-column: 2/5;
   justify-items: center;
 }
-.contact .light-theme p,
-.contact .dark-theme p {
+.contact p {
   grid-row: 2;
 }
 @media (max-width: 800px) {
-  .contact .light-theme,
   .contact .dark-theme {
-  grid-column: 1/5;
-}
+    grid-column: 1/5;
+  }
 }
