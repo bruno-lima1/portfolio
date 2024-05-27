@@ -1,5 +1,5 @@
 .contact {
-  grid-column: 2/4;
+  grid-column: 2/3;
   padding: 3rem .75rem 2rem .75rem;
   display: grid;
   grid-template-columns: 40px 1fr 1fr 1fr;
@@ -41,5 +41,8 @@
   }
   .contact-github {
     grid-area: 2/3;
+  }
+  .contact h2 {
+    text-align: center;
   }
 }

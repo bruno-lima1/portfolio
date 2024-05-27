@@ -1,6 +1,6 @@
 .projects {
   padding: 3rem .75rem 2rem .75rem;
-  grid-column: 2/4;
+  grid-column: 2/3;
   display: grid;
   grid-template-columns:40px 1fr 1fr;
   scroll-margin-top: 5rem;
@@ -9,7 +9,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  grid-column: 2/4;
+  grid-column: 1/-1;
 }
 .projects-item {
   padding: 1rem;
@@ -45,5 +45,8 @@
   .projects-list {
     grid-template-columns: 1fr;
     grid-column: 1/4;
+  }
+  .projects h2 {
+    text-align: center;
   }
 }
