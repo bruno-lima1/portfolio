@@ -8,7 +8,7 @@
     background: #333335;
     top: 0;
     flex-direction: column;
-    padding: 75px 0 20px 0;
+    padding: 75px 0 20px 1rem;
     width: 300px;
     right: 0;
     z-index: 1;
