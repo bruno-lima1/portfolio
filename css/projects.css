@@ -39,9 +39,6 @@
   margin-bottom: 1rem;
 }
 @media (max-width: 800px) {
-  .projects {
-    scroll-margin-top: 3.5rem;
-  }
   .projects-list {
     grid-template-columns: 1fr;
     grid-column: 1/4;
