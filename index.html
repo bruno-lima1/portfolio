@@ -13,19 +13,21 @@
 </head>
 
 <body>
-  <div class="grid-container">
-    <header class="header" data-smoothScroll>
-      <a class="title" href="#home">PORTFÓLIO</a>
-      <nav>
-        <button data-menu-mobile-button aria-controls="menu-mobile" aria-expanded="false">MENU</button>
-        <ul class="header-menu" data-menu-mobile-list id="menu-mobile">
-          <li><a href="#home">INÍCIO</a></li>
-          <li><a href="#projects">PROJETOS</a></li>
-          <li><a href="#education">EDUCAÇÃO</a></li>
-          <li><a href="#contact">CONTATO</a></li>
-        </ul>
-      </nav>
-    </header>
+  <div class="grid-wrapper">
+    <div class="header-wrapper">
+      <header class="header" data-smoothScroll>
+        <a class="title" href="#home">PORTFÓLIO</a>
+        <nav>
+          <button data-menu-mobile-button aria-controls="menu-mobile" aria-expanded="false">MENU</button>
+          <ul class="header-menu" data-menu-mobile-list id="menu-mobile">
+            <li><a href="#home">INÍCIO</a></li>
+            <li><a href="#projects">PROJETOS</a></li>
+            <li><a href="#education">EDUCAÇÃO</a></li>
+            <li><a href="#contact">CONTATO</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
     <main class="introduction" id="home" data-smoothScroll>
       <h1>Desenvolvedor Front-End</h1>
       <p>Estudo desenvolvimento web e possuo habilidades em JavaScript, HTML, CSS e Git.<br>Estou em busca de minha primeira oportunidade profissional.</p>
@@ -99,11 +101,15 @@
     </section>
     <section class="contact" id="contact">
       <h2 class="subtitle">Contato</h2>
-      <div>
+      <div class="contact-email">
         <a href="mailto:brunocesar.tenorio1@gmail.com"><img src="./img/icons8-nova-mensagem-96.png" alt=""></a>
         <p>Email</p>
+      </div>
+      <div class="contact-linkedin">
         <a href="https://www.linkedin.com/in/bruno-lima2"><img src="./img/icons8-linkedin.svg" alt=""></a>
         <p>Linkedln</p>
+      </div>
+      <div class="contact-github"> 
         <a href="https://github.com/bruno-lima1"><img src="./img/icons8-github(1).svg" alt=""></a>
         <p>GitHub</p>
       </div>

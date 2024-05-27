@@ -1,17 +1,19 @@
+.header-wrapper {
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  background: #000;
+  border-bottom: 1px solid #1d1d1f;
+}
 .header {
-  grid-column: 1/-1;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 1rem 0;
   gap: 0.5rem;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  scroll-margin-top: 82px;
-  background: #000;
-  border-bottom: 1px solid #1d1d1f;
+  max-width: 1125px;
+  margin: 0 auto;
 }
 .header .title {
   font-size: 1.25rem;
@@ -40,16 +42,6 @@
 }
 .header-menu a:hover:after {
   width: 100%;
-}
-@media (max-width: 1550px) {
-  .header {
-    justify-content: space-around;
-  }
-}
-@media (max-width: 1220px) {
-  .header {
-    justify-content: space-between;
-  }
 }
 @media (max-width: 800px) {
   .header-menu a::after {

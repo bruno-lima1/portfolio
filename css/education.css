@@ -1,21 +1,16 @@
 .education {
-  grid-column: 1/-1;
+  grid-column: 2/4;
   display: grid;
-  grid-template-columns: 1fr 40px 50px minmax(100px, 750px) 1fr;
   padding: 2rem .75rem 2rem .75rem;
-  background: #1d1d1f;
-}
-.education .subtitle {
-  grid-column: 2/-1;
+  grid-template-columns: 40px auto 1fr;
 }
 .education img {
-  grid-column: 3;
+  grid-area: 2/2;
 }
 .education p {
   padding-left: 1rem;
-  grid-column: 4/-1;
+  grid-area: 2/3;
 }
-
 @media (max-width: 800px) {
   .education img {
     grid-column: 2;

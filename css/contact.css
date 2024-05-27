@@ -4,16 +4,21 @@
   display: grid;
   grid-template-columns: 40px 1fr 1fr 1fr;
 }
-.contact div{
-  display: grid;
-  grid-column: 2/5;
-  justify-items: center;
+.contact-email {
+  grid-area: 2/2;
+  text-align: center;
 }
-.contact p {
-  grid-row: 2;
+.contact-linkedin {
+  grid-area: 2/3;
+  text-align: center;
+}
+.contact-github {
+  grid-area: 2/4;
+  text-align: center;
 }
 .contact img {
   width: 3rem;
+  margin: 0 auto;
 }
 @media (max-width: 800px) {
   .contact {
