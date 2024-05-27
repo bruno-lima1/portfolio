@@ -1,9 +1,17 @@
 .copy {
-  grid-column: 1/-1;
+  grid-column: 2/4;
   padding: 1rem 0;
   display: grid;
   grid-template-columns: 1fr 40px minmax(300px, 800px) 1fr;
-  background: #1d1d1f;
+  position: relative;
+}
+.copy:before {
+  content: "";
+  background: linear-gradient(to right, #2196f3, #003785);
+  width: 78vw;
+  height: 1px;
+  position: absolute;
+  left: 2rem;
 }
 .copy p {
   text-align: center;

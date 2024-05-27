@@ -3,6 +3,15 @@
   display: grid;
   padding: 2rem .75rem 2rem .75rem;
   grid-template-columns: 40px auto 1fr;
+  position: relative;
+}
+.education:before {
+  content: "";
+  background: linear-gradient(to right, #2196f3, #003785);
+  width: 78vw;
+  height: 1px;
+  position: absolute;
+  left: 2rem;
 }
 .education img {
   grid-area: 2/2;
