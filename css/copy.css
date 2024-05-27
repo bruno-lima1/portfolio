@@ -6,12 +6,13 @@
   position: relative;
 }
 .copy:before {
+  grid-column: 1/-1;
   content: "";
   background: linear-gradient(to right, #2196f3, #003785);
-  width: 78vw;
+  width: 95%;
   height: 1px;
-  position: absolute;
-  left: 2rem;
+  position: absolute; 
+  justify-self: center;
 }
 .copy p {
   text-align: center;
