@@ -1,6 +1,6 @@
 .copy {
   grid-column: 2/3;
-  padding: 1rem .75rem;
+  padding: 1rem;
   display: grid;
   position: relative;
 }
