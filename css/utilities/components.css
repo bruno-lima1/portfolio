@@ -11,8 +11,8 @@
 .button2 {
   margin-left: 1rem; 
   background: #000;
-  border: 1px solid #0177ed;
   color: #0177ed;
+  border: 1px solid #0177ed;
   border-radius: 25px;
   padding: 0.7rem 1.25rem;
   display: flex;
@@ -37,17 +37,17 @@ h3 {
 }
 @media (max-width: 800px) {
   .button1:hover {
-    background: #0071e3;
+    color: #f5f5f7;
   }
   .button2:hover {
     background: #000;
     color: #0177ed;
   }
   .button1:active {
-    background: #0177ED;
+    color: #000;
   }
   .button2:active {
-    background: #0177ED;
-    color: #f5f5f7;
+    background: linear-gradient(to left, #2196f3, #003785);
+    color: #fff;
   }
 }
