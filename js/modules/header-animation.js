@@ -8,6 +8,7 @@ export default class HeaderAnimation {
       25
     );
     this.active = "active";
+    this.screenHalf = window.innerHeight * .4
   }
   init() {
     if (this.links.length) {
@@ -24,7 +25,7 @@ export default class HeaderAnimation {
       const href = link.getAttribute("href");
       const section = document.querySelector(href);
       const offsetTop = section.offsetTop;
-      if (window.scrollY >= offsetTop) {
+      if (window.scrollY >= offsetTop - this.screenHalf) {
         this.links.forEach((link) => {
           link.classList.remove(this.active)
         })
