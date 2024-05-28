@@ -2,7 +2,7 @@
   grid-column: 2/3;
   padding: 3rem 1.5rem 2rem 1.5rem;
   display: grid;
-  grid-template-columns: 40px 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   position: relative;
 }
 .contact:before {
@@ -15,15 +15,15 @@
   justify-self: center;
 }
 .contact-email {
-  grid-area: 2/2;
+  grid-area: 2/1;
   text-align: center;
 }
 .contact-linkedin {
-  grid-area: 2/3;
+  grid-area: 2/2;
   text-align: center;
 }
 .contact-github {
-  grid-area: 2/4;
+  grid-area: 2/3;
   text-align: center;
 }
 .contact img {
