@@ -4,6 +4,7 @@
   padding: 3.5rem 1.5rem 2rem 1.5rem;
   grid-template-columns: auto 1fr;
   position: relative;
+  scroll-margin-top: 58px;
 }
 .education:before {
   grid-column: 1/-1;
