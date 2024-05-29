@@ -1,12 +1,21 @@
 .button1 {
-  background: linear-gradient(to right, #2196f3, #003785);
+  background: #0071e3;
   color: #f5f5f7;
   border: none;
   border-radius: 25px;
-  padding: 0.7rem 1.25rem;
+  padding: 0.7rem 1.25rem .7rem 1rem;
   transition: .3s;
   display: flex;
   align-items: center;
+  gap: .25rem;
+}
+.button1 img {
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+}
+.button1:hover {
+  background: #0177ED;
 }
 .button2 {
   margin-left: 1rem; 
@@ -19,12 +28,9 @@
   align-items: center;
   transition: .3s;
 }
-.button1:hover {
-  color: #000;
-}
 .button2:hover {
-  background: linear-gradient(to left, #2196f3, #003785);
-  color: #fff;
+  background: #0177ED;
+  color: #f5f5f7;
 }
 .subtitle {
   font-size: 1.75rem;
@@ -37,17 +43,17 @@ h3 {
 }
 @media (max-width: 800px) {
   .button1:hover {
-    color: #f5f5f7;
+    background: #0071e3;
   }
   .button2:hover {
     background: #000;
     color: #0177ed;
   }
   .button1:active {
-    color: #000;
+    background: #0177ED;
   }
   .button2:active {
-    background: linear-gradient(to left, #2196f3, #003785);
-    color: #fff;
+    background: #0177ED;
+    color: #f5f5f7;
   }
 }
