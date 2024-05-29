@@ -9,7 +9,8 @@
   align-items: center;
   gap: .25rem;
 }
-.button1 img {
+.button1 img,
+.button2 img {
   width: 20px;
   height: 20px;
   margin: 0 auto;
@@ -23,10 +24,11 @@
   color: #0071e3;
   border: 1px solid #0071e3;
   border-radius: 25px;
-  padding: 0.7rem 1.25rem;
+  padding: 0.7rem 1.25rem .7rem 1rem;
   display: flex;
   align-items: center;
   transition: .3s;
+  gap: .25rem;
 }
 .button2:hover {
   background: #0071e3;
