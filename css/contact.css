@@ -1,9 +1,10 @@
 .contact {
   grid-column: 2/3;
   padding: 3.5rem 1.5rem 2rem 1.5rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   position: relative;
+}
+.contact-wrapper {
+  display: flex;
 }
 .contact:before {
   grid-column: 1/-1;
@@ -13,36 +14,25 @@
   height: 1px;
   position: absolute; 
   justify-self: center;
+  top: 0;
 }
 .contact-email {
-  grid-area: 2/1;
   text-align: center;
+  margin: 0 auto;
 }
 .contact-linkedin {
-  grid-area: 2/2;
   text-align: center;
+  margin: 0 auto;
 }
 .contact-github {
-  grid-area: 2/3;
   text-align: center;
+  margin: 0 auto;
 }
 .contact img {
   width: 3rem;
   margin: 0 auto;
 }
 @media (max-width: 800px) {
-  .contact {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .contact-email {
-    grid-area: 2/1;
-  }
-  .contact-linkedin {
-    grid-area: 2/2;
-  }
-  .contact-github {
-    grid-area: 2/3;
-  }
   .contact h2 {
     text-align: center;
   }
