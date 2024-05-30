@@ -3,7 +3,7 @@
   grid-column: 2/3;
   display: grid;
   grid-template-columns:40px 1fr 1fr;
-  scroll-margin-top: 57px;
+  scroll-margin-top: 56px;
 }
 .projects-list {
   display: grid;
