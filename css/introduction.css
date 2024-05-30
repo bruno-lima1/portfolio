@@ -1,9 +1,21 @@
-.introduction {
+.background-wrapper {
   grid-column: 1/-1;
+  background: url(./../img/markus-spiske-hvSr_CVecVI-unsplash.jpg) center/cover;
+  height: 100vh;
+}
+.background-wrapper::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.introduction {
   display: grid;
   justify-items: center;
   text-align: center;
-  background: url(./../img/markus-spiske-hvSr_CVecVI-unsplash.jpg) center/cover;
   padding: 15rem 1.5rem;
 }
 .introduction h1 {
@@ -19,21 +31,6 @@
 .introduction a {
   position: relative;
 }
-.introduction::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-}
 .introduction .button {
   display: block;
-}
-@media (max-width: 800px) {
-  .introduction::before {
-    width: 100vw;
-    height: 100vh;
-  }
 }
