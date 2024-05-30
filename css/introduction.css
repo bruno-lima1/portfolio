@@ -31,3 +31,9 @@
 .introduction .button {
   display: block;
 }
+@media (max-width: 800px) {
+  .introduction::before {
+    width: 100vw;
+    height: 100vh;
+  }
+}
