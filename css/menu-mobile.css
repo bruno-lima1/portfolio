@@ -51,7 +51,7 @@
     transform: rotate(90deg);
   }
   [data-menu-mobile-list].active {
-    max-height: 150px;
-    padding: 75px 0 20px 1rem;
+    max-height: 175px;
+    padding: 56px 0 1rem 0;
   }
 }
