@@ -35,7 +35,6 @@
 }
 .projects img {
   border-radius: 10px;
-  align-self: end;
   margin-bottom: 1rem;
 }
 @media (max-width: 800px) {
