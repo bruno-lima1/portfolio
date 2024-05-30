@@ -15,6 +15,10 @@
   height: 20px;
   margin: 0 auto;
 }
+.introduction .button1 img {
+  width: 15px;
+  height: 15px;
+}
 .button1:hover {
   background: #003f7f;
 }
