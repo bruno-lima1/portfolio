@@ -16,6 +16,10 @@
     overflow: hidden;
     transition: 0.3s;
   }
+  [data-menu-mobile-list].active {
+    max-height: 175px;
+    padding: 56px 0 1rem 0;
+  }
   .header-menu a {
     border-radius: 0;
     background: #333335;
@@ -49,9 +53,5 @@
   }
   [data-menu-mobile-button].active:before {
     transform: rotate(90deg);
-  }
-  [data-menu-mobile-list].active {
-    max-height: 175px;
-    padding: 56px 0 1rem 0;
   }
 }
