@@ -3,16 +3,18 @@
 }
 @media (max-width: 800px) {
   [data-menu-mobile-list] {
-    display: none;
     position: absolute;
     background: #333335;
     top: 0;
     flex-direction: column;
-    padding: 75px 0 20px 1rem;
+    padding: 0 0 0 1rem;
     width: 300px;
     right: 0;
     z-index: 1;
     border-radius: 7px 0 0 7px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
   }
   .header-menu a {
     border-radius: 0;
@@ -49,17 +51,7 @@
     transform: rotate(90deg);
   }
   [data-menu-mobile-list].active {
-    display: flex;
-    animation: menuMobile 0.5s forwards;
-  }
-  @keyframes menuMobile {
-    from {
-      opacity: 0;
-      transform: translate3d(50px, 0, 0);
-    }
-    to {
-      opacity: 1;
-      transform: translate3d(0, 0, 0);
-    }
+    max-height: 150px;
+    padding: 75px 0 20px 1rem;
   }
 }
