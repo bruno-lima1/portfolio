@@ -6,7 +6,9 @@ import HeaderAnimation from "./modules/header-animation.js"
 const headerAnimation = new HeaderAnimation("[data-header-animation-target] a");
 headerAnimation.init();
 
-import initMenuMobile from "./modules/menu-mobile.js";
+import MenuMobile from "./modules/menu-mobile.js";
+const menuMobile = new MenuMobile("[data-menu-mobile-button]", "[data-menu-mobile-wrapper]", "[data-menu-mobile-list] a");
+menuMobile.init()
+
 import initOutsideClick from "./modules/outside-click.js";
-initMenuMobile();
 initOutsideClick();
