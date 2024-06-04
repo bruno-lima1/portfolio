@@ -27,5 +27,6 @@ export default class MenuMobile {
   }
   closeMenu() {
     this.wrapper.classList.remove("active");
+    this.button.classList.remove("active");
   }
 }
