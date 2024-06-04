@@ -16,6 +16,9 @@
   transition: .3s;
   display: none;
 }
+[data-menu-mobile-close]:active {
+  background: #333335;
+}
 @media (max-width: 800px) {
   [data-menu-mobile-button] {
     background: #1d1d1f;
@@ -30,9 +33,6 @@
     position: fixed;
     top: .85rem;
     right: 1.5rem;
-  }
-  [data-menu-mobile-close]:active {
-    background: #003f7f;
   }
   [data-menu-mobile-close].active {
     display: flex;
