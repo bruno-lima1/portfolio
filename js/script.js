@@ -9,6 +9,3 @@ headerAnimation.init();
 import MenuMobile from "./modules/menu-mobile.js";
 const menuMobile = new MenuMobile("[data-menu-mobile-button]", "[data-menu-mobile-wrapper]", "[data-menu-mobile-list] a", "[data-menu-mobile-close]");
 menuMobile.init()
-
-import initOutsideClick from "./modules/outside-click.js";
-initOutsideClick();
