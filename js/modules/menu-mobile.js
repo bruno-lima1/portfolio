@@ -1,8 +1,9 @@
 export default class MenuMobile {
-  constructor(button, wrapper, list) {
+  constructor(button, wrapper, list, close) {
     this.button = document.querySelector(button);
     this.wrapper = document.querySelector(wrapper);
     this.list = document.querySelectorAll(list);
+    this.close = document.querySelector(close);
     this.enableMenuMobile = this.enableMenuMobile.bind(this);
     this.closeMenu = this.closeMenu.bind(this);
   }
@@ -10,6 +11,7 @@ export default class MenuMobile {
     if (this.button && this.wrapper) {
       this.menuEvent();
       this.menuList();
+      this.eventCloseButton()
     }
     return this;
   }
@@ -18,6 +20,7 @@ export default class MenuMobile {
   }
   enableMenuMobile() {
     this.wrapper.classList.toggle("active");
+    this.enableCloseButton()
   }
   menuList() {
     this.list.forEach((item) => {
@@ -26,5 +29,15 @@ export default class MenuMobile {
   }
   closeMenu() {
     this.wrapper.classList.remove("active");
+    this.disableCloseButton()
+  }
+  enableCloseButton() {
+    this.close.classList.add("active")
+  }
+  disableCloseButton() {
+    this.close.classList.remove("active")
+  }
+  eventCloseButton() {
+    this.close.addEventListener("click", this.closeMenu)
   }
 }

@@ -50,7 +50,4 @@
   .header-menu a {
     padding: .75rem 0 .75rem 1rem;
   }
-  .header-menu a::after {
-    display: none;
-  }
 }
