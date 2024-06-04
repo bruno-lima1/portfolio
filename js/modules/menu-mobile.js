@@ -4,6 +4,7 @@ export default class MenuMobile {
     this.wrapper = document.querySelector(wrapper);
     this.list = document.querySelectorAll(list);
     this.enableMenuMobile = this.enableMenuMobile.bind(this);
+    this.closeMenu = this.closeMenu.bind(this);
   }
   init() {
     if (this.button && this.wrapper) {
