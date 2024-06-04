@@ -7,5 +7,5 @@ const headerAnimation = new HeaderAnimation("[data-header-animation-target] a");
 headerAnimation.init();
 
 import MenuMobile from "./modules/menu-mobile.js";
-const menuMobile = new MenuMobile("[data-menu-mobile-button]", "[data-menu-mobile-wrapper]", "[data-menu-mobile-list] a", "[data-menu-mobile-close]");
+const menuMobile = new MenuMobile("[data-menu-mobile-button]", "[data-menu-mobile-wrapper]", "[data-menu-mobile-list] a");
 menuMobile.init()
