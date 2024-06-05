@@ -15,8 +15,12 @@
   padding: 1rem;
   border-radius: 20px;
   display: grid;
+  transition: .3s;
+  transform: scale(.9);
+}
+.projects-item:hover {
   background: #1d1d1f;
-  border: 1px solid #333335;
+  transform: scale(1);
 }
 .projects-techs {
   display: flex;
@@ -44,5 +48,9 @@
   }
   .projects h2 {
     text-align: center;
+  }
+  .projects-item {
+    background: #1d1d1f;
+    transform: scale(1);
   }
 }
