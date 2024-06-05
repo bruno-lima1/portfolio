@@ -41,6 +41,7 @@
     width: 100vw;
     height: 100vh;
     backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.5);
     transition: .5s;
   }
   [data-menu-mobile-wrapper].active {
