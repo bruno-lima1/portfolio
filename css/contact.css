@@ -41,4 +41,10 @@
   .contact-wrapper {
     gap: 3rem;
   }
+  .contact-wrapper a:hover img {
+    background: #000;
+  }
+  .contact-wrapper a:active img {
+    background: #0078D4;
+  }
 }
