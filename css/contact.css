@@ -7,33 +7,38 @@
 .contact-wrapper {
   display: flex;
 }
+.contact-wrapper p {
+  color: #f5f5f7;
+}
 .contact:before {
   grid-column: 1/-1;
   content: "";
   background: linear-gradient(to right, #2196f3, #003785);
   width: 95%;
   height: 1px;
-  position: absolute; 
+  position: absolute;
   justify-self: center;
 }
-.contact-email {
-  text-align: center;
-  margin: 0 auto;
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
 }
-.contact-linkedin {
-  text-align: center;
+.contact-wrapper img {
   margin: 0 auto;
+  width: 2rem;
+  border-radius: 50%;
+  padding: 0.25rem;
+  transition: 0.3s;
 }
-.contact-github {
-  text-align: center;
-  margin: 0 auto;
-}
-.contact img {
-  width: 3rem;
-  margin: 0 auto;
+.contact-wrapper a:hover img {
+  background: #0078D4;
 }
 @media (max-width: 800px) {
   .contact h2 {
     text-align: center;
+  }
+  .contact-wrapper {
+    gap: 3rem;
   }
 }
