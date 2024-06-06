@@ -22,7 +22,7 @@
   transform: scale(.9);
 }
 .projects-item:hover {
-  background: #1d1d1f;
+  background: #2F2F2F;
   transform: scale(1);
 }
 .projects-techs {
