@@ -43,3 +43,29 @@ dd {
   display: grid;
   grid-template-columns: 1fr minmax(300px, 1170px) 1fr;
 }
+::-webkit-scrollbar {
+  width: 17px;
+}
+::-webkit-scrollbar-track {
+  background: #424242;
+}
+::-webkit-scrollbar-thumb {
+  background: #686868;
+  border-left: 2px solid #424242;
+  border-right: 2px solid #424242;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7b7b7b;
+}
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+  background: url('./../img/icons8-sort-down-100\ \(1\).png') #424242 center / 9px no-repeat;
+}
+::-webkit-scrollbar-button:single-button:vertical:decrement:active {
+  background: url('./../img/icons8-ordem-descendente-100.png') #b5b5b5 center / 9px no-repeat;
+}
+::-webkit-scrollbar-button:single-button:vertical:increment {
+  background: url('./../img/icons8-sort-down-100.png') #424242 center / 9px no-repeat;
+}
+::-webkit-scrollbar-button:single-button:vertical:increment:active {
+  background: url('./../img/icons8-ordem-descendente-100\ \(1\).png') #b5b5b5 center / 9px no-repeat;
+}
