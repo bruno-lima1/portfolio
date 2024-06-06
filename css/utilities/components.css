@@ -20,11 +20,11 @@
   height: 15px;
 }
 .button1:hover {
-  background: #003f7f;
+  background: #0054a8;
 }
 .button2 {
   margin-left: 1rem; 
-  background: #000;
+  background: #212121;
   color: #0071e3;
   border: 1px solid #0071e3;
   border-radius: 25px;
@@ -52,11 +52,11 @@ h3 {
     background: #0071e3;
   }
   .button2:hover {
-    background: #000;
+    background: #212121;
     color: #0071e3;
   }
   .button1:active {
-    background: #003f7f;
+    background: #0054a8;
   }
   .button2:active {
     background: #0071e3;
