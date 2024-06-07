@@ -1,7 +1,7 @@
 .education {
   grid-column: 2/3;
   display: grid;
-  padding: 3.5rem 2.25rem 2rem 2.25rem;
+  padding: 3.5rem 1.5rem 2rem 1.5rem;
   grid-template-columns: auto 1fr;
   position: relative;
   scroll-margin-top: 58px;
