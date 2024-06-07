@@ -13,7 +13,7 @@
     height: 20px;
     position: fixed;
     top: 1.15rem;
-    right: 1.9rem;
+    right: 2rem;
     z-index: 1;
     cursor: pointer;
   }
@@ -29,7 +29,7 @@
     border-radius: 50%;
     position: fixed;
     top: 1.15rem;
-    right: 1.9rem;
+    right: 2rem;
     z-index: 1;
     cursor: pointer;
   }
