@@ -1,5 +1,5 @@
 .projects {
-  padding: 3.5rem 1.5rem 2rem 1.5rem;
+  padding: 3.5rem 2.6rem 2rem 2.6rem;
   grid-column: 2/3;
   display: grid;
   grid-template-columns:40px 1fr 1fr;
@@ -22,7 +22,7 @@
   transform: scale(.9);
 }
 .projects-item:hover {
-  background: #2F2F2F;
+  background: #424242;
   transform: scale(1);
 }
 .projects-techs {
