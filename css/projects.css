@@ -53,6 +53,8 @@
 }
 .projects-buttons {
   display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   justify-content: center;
 }
 @media (max-width: 1025px) {
@@ -62,11 +64,6 @@
     flex-direction: column;
     gap: 1rem;
     max-width: 600px;
-  }
-}
-@media (max-width: 1000px) {
-  .projects-item {
-    gap: 1rem;
   }
 }
 @media (max-width: 800px) {
