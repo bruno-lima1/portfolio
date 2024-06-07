@@ -8,7 +8,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 1rem 2.6rem;
+  padding: 1rem 2.25rem;
   max-width: 1122px;
   margin: 0 auto;
 }
@@ -44,6 +44,6 @@
     margin: 0 auto;
   }
   .header-menu {
-    padding-left: 2.6rem;
+    padding-left: 2.25rem;
   }
 }
