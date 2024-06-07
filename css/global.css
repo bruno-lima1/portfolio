@@ -57,6 +57,9 @@ dd {
 ::-webkit-scrollbar-thumb:hover {
   background: #7b7b7b;
 }
+::-webkit-scrollbar-thumb:active {
+  background: #a5a5a5;
+}
 ::-webkit-scrollbar-button:single-button:vertical:decrement {
   background: url('./../img/icons8-sort-down-100\ \(1\).png') #424242 center / 9px no-repeat;
 }
