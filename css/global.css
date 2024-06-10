@@ -41,7 +41,7 @@ dd {
 }
 .grid-wrapper {
   display: grid;
-  grid-template-columns: 1fr minmax(300px, 1170px) 1fr;
+  grid-template-columns: 1fr minmax(300px, 1180px) 1fr;
 }
 ::-webkit-scrollbar {
   width: 17px;
