@@ -9,16 +9,6 @@
   align-items: center;
   gap: .25rem;
 }
-.button1 img,
-.button2 img {
-  width: 20px;
-  height: 20px;
-  margin: 0 auto;
-}
-.introduction .button1 img {
-  width: 15px;
-  height: 15px;
-}
 .button1:hover {
   background: #0054a8;
 }
@@ -36,6 +26,16 @@
 .button2:hover {
   background: #0071e3;
   color: #f5f5f7;
+}
+.button1 img,
+.button2 img {
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+}
+.introduction .button1 img {
+  width: 15px;
+  height: 15px;
 }
 .subtitle {
   font-size: 1.75rem;
